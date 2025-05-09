@@ -3,3 +3,7 @@ wait(1)
 print("I think it would work")
 wait(1)
 print("if it works its cool")
+local ScreenGui = Instance.new("ScreenGui")
+ScreenGui.Active = true
+local text = Instance.new("Label")
+text.Parent = game.PlayerGui.ScreenGui
